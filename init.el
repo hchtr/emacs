@@ -4,6 +4,7 @@
 (tool-bar-mode 0)
 (delete-selection-mode 1)
 (global-display-line-numbers-mode 1)
+(electric-pair-mode 1)
 
 (add-to-list 'custom-theme-load-path "~/emacs/themes")
 (load-theme 'hchtr t)
