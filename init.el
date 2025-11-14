@@ -7,6 +7,6 @@
 (global-display-line-numbers-mode 1)
 (electric-pair-mode 1)
 
-(set-face-attribute 'default nil :height 160)
+(set-face-attribute 'default nil :height 180)
 (add-to-list 'custom-theme-load-path "~/emacs/themes")
 (load-theme 'hchtr t)
