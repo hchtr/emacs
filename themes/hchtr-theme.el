@@ -7,6 +7,6 @@
 
 (custom-theme-set-faces
  'hchtr
- `(default ((t :background "grey7" :foreground "white"))))
+ `(default ((t :background "gray3" :foreground "white"))))
 
 (provide-theme 'hchtr)
