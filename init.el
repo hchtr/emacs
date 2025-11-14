@@ -7,6 +7,5 @@
 (global-display-line-numbers-mode 1)
 (electric-pair-mode 1)
 
-(set-frame-font "DejaVu Sans Mono 16" nil t)
 (add-to-list 'custom-theme-load-path "~/emacs/themes")
 (load-theme 'hchtr t)
