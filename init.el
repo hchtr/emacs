@@ -8,5 +8,7 @@
 (electric-pair-mode 1)
 
 (set-face-attribute 'default nil :height 165)
+(set-frame-font "Jetbrains Mono" nil t)
+
 (add-to-list 'custom-theme-load-path "~/emacs/themes")
 (load-theme 'hchtr t)
