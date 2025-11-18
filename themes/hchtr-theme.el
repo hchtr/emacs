@@ -9,4 +9,6 @@
  'hchtr
  `(default ((t :background "black" :foreground "white"))))
 
+(setq-default cursor-type 'bar)
+
 (provide-theme 'hchtr)
