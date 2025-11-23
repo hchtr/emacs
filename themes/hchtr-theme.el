@@ -7,7 +7,7 @@
 
 (custom-theme-set-faces
  'hchtr
- `(default ((t :background "black" :foreground "white"))))
+ `(default ((t :background "#142323" :foreground "#fff8dc"))))
 
 (setq-default cursor-type 'bar)
 
