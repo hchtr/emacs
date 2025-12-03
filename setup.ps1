@@ -1,4 +1,4 @@
-$repoInitFile = "C:\hchtr\repos\emacs\init.el"
+$repoInitFile = "$env:HCHTR\repos\emacs\init.el"
 
 $initFile = "$env:APPDATA\.emacs.d\init.el"
 
