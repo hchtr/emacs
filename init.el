@@ -1,6 +1,6 @@
 (setq inhibit-startup-screen t)
 (setq make-backup-files nil)
-(setq default-directory "c:/hchtr")
+(setq default-directory (concat (getenv "HCHTR") "/"))
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
@@ -9,7 +9,8 @@
 (electric-pair-mode 1)
 
 (set-face-attribute 'default nil :height 165)
-(set-frame-font "-outline-Consolas-regular-normal-normal-mono-27-*-*-*-c-*-iso10646-1")
+(set-frame-font "Consolas")
 
-(add-to-list 'custom-theme-load-path "c:/hchtr/repos/emacs/themes")
+(add-to-list 'custom-theme-load-path
+             (concat (getenv "HCHTR") "/repos/emacs/themes"))
 (load-theme 'hchtr t)
