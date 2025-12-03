@@ -1,5 +1,6 @@
 (setq inhibit-startup-screen t)
 (setq make-backup-files nil)
+(setq default-directory "c:/hchtr")
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
@@ -10,5 +11,5 @@
 (set-face-attribute 'default nil :height 165)
 (set-frame-font "-outline-Consolas-regular-normal-normal-mono-27-*-*-*-c-*-iso10646-1")
 
-;; (add-to-list 'custom-theme-load-path "~/emacs/themes")
+(add-to-list 'custom-theme-load-path "c:/hchtr/repos/emacs/themes")
 (load-theme 'hchtr t)
