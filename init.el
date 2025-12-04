@@ -1,6 +1,6 @@
 (setq inhibit-startup-screen t)
 (setq make-backup-files nil)
-(setq default-directory (concat (getenv "HCHTR") "/"))
+(setq default-directory (concat (getenv "HCHTR_HOME") "/"))
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
@@ -12,5 +12,5 @@
 (set-frame-font "Consolas")
 
 (add-to-list 'custom-theme-load-path
-             (concat (getenv "HCHTR") "/repos/emacs/themes"))
+             (concat (getenv "HCHTR_HOME") "/repos/emacs/themes"))
 (load-theme 'hchtr t)
